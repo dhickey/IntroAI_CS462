@@ -24,8 +24,9 @@ def specificity(tneg,fpos):
     return(tneg/(tneg+fpos))
 
 #define all csv files
-cleve = pd.read_csv('\\Users\\hicke\\Downloads\\heart+disease\\processed.cleveland.data', names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope' , 'ca', 'thal', 'num'] )
-hung = pd.read_csv("\\Users\\hicke\\Downloads\\heart+disease\\processed.hungarian.data", names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope' , 'ca', 'thal', 'num'] )
+#update the paths to run locally
+#cleve = pd.read_csv('\\Downloads\\heart+disease\\processed.cleveland.data', names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope' , 'ca', 'thal', 'num'] )
+#hung = pd.read_csv("\\Downloads\\heart+disease\\processed.hungarian.data", names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope' , 'ca', 'thal', 'num'] )
 
 #cleve = cleve.replace("?", np.NaN)
 #hung = hung.replace("?", np.NaN)
